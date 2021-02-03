@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  background-color: rgb(161, 100, 243);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.btn {
+  background-color: purple;
+  border: none;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  opacity: 0.89;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
+#buttons {
+  text-align: center;
+}
+
+#image {
+  margin: 20px auto;
+  width: 200px;
+  display: block;
+}
